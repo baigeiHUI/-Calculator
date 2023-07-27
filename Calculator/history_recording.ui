@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>History_Recording</class>
+ <widget class="QWidget" name="History_Recording">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>356</width>
+    <height>605</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>281</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>14</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>历史记录:</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="CLC_Button">
+   <property name="geometry">
+    <rect>
+     <x>130</x>
+     <y>550</y>
+     <width>93</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton#CLC_Button {
+       border-radius: 12px;
+       border: 1px solid #000000;
+       color: #000000;
+       }
+        QPushButton#CLC_Button:hover{
+        border-radius: 12px;
+        border: 1px solid #000000; 
+        background-color: qlineargradient(spread:pad,  x1:0, x2:0, y1:0, y2:1
+         stop: 0 rgba(200,220,240,255),
+         stop: 0.504 rgba(173,216,230,255),
+         stop: 0.505 rgba(171,215,225,255),
+        stop: 1 rgba(200,220,240,255));
+        }
+
+        QPushButton#CLC_Button:pressed{
+         border-radius: 12px;
+        background-color: qlineargradient(spread:pad,  x1:0, x2:0, y1:0, y2:1,
+         stop: 0 rgba(200,220,240,255),
+         stop: 0.504 rgba(230,230,230,255),
+         stop: 0.505 rgba(230,230,230,255),
+        stop: 1 rgba(200,220,225,255));
+         border: 1px solid #000000;  
+
+        }
+</string>
+   </property>
+   <property name="text">
+    <string>CLC</string>
+   </property>
+  </widget>
+  <widget class="QTextBrowser" name="textBrowser">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>60</y>
+     <width>361</width>
+     <height>471</height>
+    </rect>
+   </property>
+   <property name="contextMenuPolicy">
+    <enum>Qt::NoContextMenu</enum>
+   </property>
+   <property name="layoutDirection">
+    <enum>Qt::RightToLeft</enum>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
