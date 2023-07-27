@@ -1,0 +1,1809 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>513</width>
+    <height>691</height>
+   </rect>
+  </property>
+  <property name="font">
+   <font>
+    <pointsize>9</pointsize>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="nd_2">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>320</y>
+      <width>91</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string>2nd</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Pi_Button">
+    <property name="geometry">
+     <rect>
+      <x>110</x>
+      <y>320</y>
+      <width>91</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string>Π</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="e_Button">
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>320</y>
+      <width>93</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>93</width>
+      <height>0</height>
+     </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string>e</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="CLC_Button">
+    <property name="geometry">
+     <rect>
+      <x>310</x>
+      <y>320</y>
+      <width>91</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string>C</string>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>20</width>
+      <height>20</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="del_Button">
+    <property name="geometry">
+     <rect>
+      <x>410</x>
+      <y>320</y>
+      <width>93</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string>&lt;-</string>
+    </property>
+    <property name="icon">
+     <iconset theme="format-text-italic">
+      <normaloff>.</normaloff>.</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>20</width>
+      <height>20</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="mi_10_d_xciButton">
+    <property name="geometry">
+     <rect>
+      <x>310</x>
+      <y>370</y>
+      <width>91</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton#CLC_Button {
+    border-radius: 12px;
+    border: 1px solid #46bcff;
+    color: #46bcff;
+}
+ 
+QPushButton#CLC_Button:hover {
+    border-radius: 12px;
+    background-color: #46bcff;
+    border: 0px;
+    color: #ffffff;
+}
+ 
+QPushButton#CLC_Button:pressed {
+    border: 0px;
+    background-color: #25aaf5;
+    border-radius: 12px;
+}
+ 
+QPushButton#CLC_Button:disabled {
+    border: 0px;
+    border-radius: 12px;
+    border: 1px solid #46bcff;
+    opacity: 0.4;
+}
+</string>
+    </property>
+    <property name="text">
+     <string>exp</string>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>20</width>
+      <height>20</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Get_ModButton">
+    <property name="geometry">
+     <rect>
+      <x>410</x>
+      <y>370</y>
+      <width>93</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton#del_Button {
+    border-radius: 12px;
+    border: 1px solid #46bcff;
+    color: #46bcff;
+}
+ 
+QPushButton#del_Button:hover {
+    border-radius: 12px;
+    background-color: #46bcff;
+    border: 0px;
+    color: #ffffff;
+}
+ 
+QPushButton#del_Button:pressed {
+    border: 0px;
+    background-color: #25aaf5;
+    border-radius: 12px;
+}
+ 
+QPushButton#del_Button:disabled {
+    border: 0px;
+    border-radius: 12px;
+    border: 1px solid #46bcff;
+    opacity: 0.4;
+}
+</string>
+    </property>
+    <property name="text">
+     <string>mod</string>
+    </property>
+    <property name="icon">
+     <iconset theme="format-text-italic">
+      <normaloff>.</normaloff>.</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>20</width>
+      <height>20</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="x2_Button">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>370</y>
+      <width>91</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton#nd_2 {
+    border-radius: 12px;
+    border: 1px solid #46bcff;
+    color: #46bcff;
+}
+ 
+QPushButton#nd_2:hover {
+    border-radius: 12px;
+    background-color: #46bcff;
+    border: 0px;
+    color: #ffffff;
+}
+ 
+QPushButton#nd_2:pressed {
+    border: 0px;
+    background-color: #25aaf5;
+    border-radius: 12px;
+}
+ 
+QPushButton#nd_2:disabled {
+    border: 0px;
+    border-radius: 12px;
+    border: 1px solid #46bcff;
+    opacity: 0.4;
+}
+</string>
+    </property>
+    <property name="text">
+     <string>x²</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="absx_Button">
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>370</y>
+      <width>93</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>93</width>
+      <height>0</height>
+     </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton#e_Button {
+    border-radius: 12px;
+    border: 1px solid #46bcff;
+    color: #46bcff;
+}
+ 
+QPushButton#e_Button:hover {
+    border-radius: 12px;
+    background-color: #46bcff;
+    border: 0px;
+    color: #ffffff;
+}
+ 
+QPushButton#e_Button:pressed {
+    border: 0px;
+    background-color: #25aaf5;
+    border-radius: 12px;
+}
+ 
+QPushButton#e_Button:disabled {
+    border: 0px;
+    border-radius: 12px;
+    border: 1px solid #46bcff;
+    opacity: 0.4;
+}
+</string>
+    </property>
+    <property name="text">
+     <string>|x|</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="x_fuyici_Button">
+    <property name="geometry">
+     <rect>
+      <x>110</x>
+      <y>370</y>
+      <width>91</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton#Pi_Button {
+    border-radius: 12px;
+    border: 1px solid #46bcff;
+    color: #46bcff;
+}
+ 
+QPushButton#Pi_Button:hover {
+    border-radius: 12px;
+    background-color: #46bcff;
+    border: 0px;
+    color: #ffffff;
+}
+ 
+QPushButton#Pi_Button:pressed {
+    border: 0px;
+    background-color: #25aaf5;
+    border-radius: 12px;
+}
+ 
+QPushButton#Pi_Button:disabled {
+    border: 0px;
+    border-radius: 12px;
+    border: 1px solid #46bcff;
+    opacity: 0.4;
+}
+</string>
+    </property>
+    <property name="text">
+     <string>1/x</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="jiecheng">
+    <property name="geometry">
+     <rect>
+      <x>310</x>
+      <y>420</y>
+      <width>91</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton#CLC_Button {
+    border-radius: 12px;
+    border: 1px solid #46bcff;
+    color: #46bcff;
+}
+ 
+QPushButton#CLC_Button:hover {
+    border-radius: 12px;
+    background-color: #46bcff;
+    border: 0px;
+    color: #ffffff;
+}
+ 
+QPushButton#CLC_Button:pressed {
+    border: 0px;
+    background-color: #25aaf5;
+    border-radius: 12px;
+}
+ 
+QPushButton#CLC_Button:disabled {
+    border: 0px;
+    border-radius: 12px;
+    border: 1px solid #46bcff;
+    opacity: 0.4;
+}
+</string>
+    </property>
+    <property name="text">
+     <string>n!</string>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>20</width>
+      <height>20</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="divButton">
+    <property name="geometry">
+     <rect>
+      <x>410</x>
+      <y>420</y>
+      <width>93</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton#del_Button {
+    border-radius: 12px;
+    border: 1px solid #46bcff;
+    color: #46bcff;
+}
+ 
+QPushButton#del_Button:hover {
+    border-radius: 12px;
+    background-color: #46bcff;
+    border: 0px;
+    color: #ffffff;
+}
+ 
+QPushButton#del_Button:pressed {
+    border: 0px;
+    background-color: #25aaf5;
+    border-radius: 12px;
+}
+ 
+QPushButton#del_Button:disabled {
+    border: 0px;
+    border-radius: 12px;
+    border: 1px solid #46bcff;
+    opacity: 0.4;
+}
+</string>
+    </property>
+    <property name="text">
+     <string>➗</string>
+    </property>
+    <property name="icon">
+     <iconset theme="format-text-italic">
+      <normaloff>.</normaloff>.</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>20</width>
+      <height>20</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="sqrt_xButton">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>420</y>
+      <width>91</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string>²√x</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Right_Bra_Button">
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>420</y>
+      <width>93</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>93</width>
+      <height>0</height>
+     </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton#e_Button {
+    border-radius: 12px;
+    border: 1px solid #46bcff;
+    color: #46bcff;
+}
+ 
+QPushButton#e_Button:hover {
+    border-radius: 12px;
+    background-color: #46bcff;
+    border: 0px;
+    color: #ffffff;
+}
+ 
+QPushButton#e_Button:pressed {
+    border: 0px;
+    background-color: #25aaf5;
+    border-radius: 12px;
+}
+ 
+QPushButton#e_Button:disabled {
+    border: 0px;
+    border-radius: 12px;
+    border: 1px solid #46bcff;
+    opacity: 0.4;
+}
+</string>
+    </property>
+    <property name="text">
+     <string>)</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Left_bra_Button">
+    <property name="geometry">
+     <rect>
+      <x>110</x>
+      <y>420</y>
+      <width>91</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton#Pi_Button {
+    border-radius: 12px;
+    border: 1px solid #46bcff;
+    color: #46bcff;
+}
+ 
+QPushButton#Pi_Button:hover {
+    border-radius: 12px;
+    background-color: #46bcff;
+    border: 0px;
+    color: #ffffff;
+}
+ 
+QPushButton#Pi_Button:pressed {
+    border: 0px;
+    background-color: #25aaf5;
+    border-radius: 12px;
+}
+ 
+QPushButton#Pi_Button:disabled {
+    border: 0px;
+    border-radius: 12px;
+    border: 1px solid #46bcff;
+    opacity: 0.4;
+}
+</string>
+    </property>
+    <property name="text">
+     <string>(</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Button_9">
+    <property name="geometry">
+     <rect>
+      <x>310</x>
+      <y>470</y>
+      <width>91</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton#CLC_Button {
+    border-radius: 12px;
+    border: 1px solid #46bcff;
+    color: #46bcff;
+}
+ 
+QPushButton#CLC_Button:hover {
+    border-radius: 12px;
+    background-color: #46bcff;
+    border: 0px;
+    color: #ffffff;
+}
+ 
+QPushButton#CLC_Button:pressed {
+    border: 0px;
+    background-color: #25aaf5;
+    border-radius: 12px;
+}
+ 
+QPushButton#CLC_Button:disabled {
+    border: 0px;
+    border-radius: 12px;
+    border: 1px solid #46bcff;
+    opacity: 0.4;
+}
+</string>
+    </property>
+    <property name="text">
+     <string>9</string>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>20</width>
+      <height>20</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Mul_Button">
+    <property name="geometry">
+     <rect>
+      <x>410</x>
+      <y>470</y>
+      <width>93</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton#del_Button {
+    border-radius: 12px;
+    border: 1px solid #46bcff;
+    color: #46bcff;
+}
+ 
+QPushButton#del_Button:hover {
+    border-radius: 12px;
+    background-color: #46bcff;
+    border: 0px;
+    color: #ffffff;
+}
+ 
+QPushButton#del_Button:pressed {
+    border: 0px;
+    background-color: #25aaf5;
+    border-radius: 12px;
+}
+ 
+QPushButton#del_Button:disabled {
+    border: 0px;
+    border-radius: 12px;
+    border: 1px solid #46bcff;
+    opacity: 0.4;
+}
+</string>
+    </property>
+    <property name="text">
+     <string>✖</string>
+    </property>
+    <property name="icon">
+     <iconset theme="format-text-italic">
+      <normaloff>.</normaloff>.</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>20</width>
+      <height>20</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="xd_ycimi_Button">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>470</y>
+      <width>91</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton#nd_2 {
+    border-radius: 12px;
+    border: 1px solid #46bcff;
+    color: #46bcff;
+}
+ 
+QPushButton#nd_2:hover {
+    border-radius: 12px;
+    background-color: #46bcff;
+    border: 0px;
+    color: #ffffff;
+}
+ 
+QPushButton#nd_2:pressed {
+    border: 0px;
+    background-color: #25aaf5;
+    border-radius: 12px;
+}
+ 
+QPushButton#nd_2:disabled {
+    border: 0px;
+    border-radius: 12px;
+    border: 1px solid #46bcff;
+    opacity: 0.4;
+}
+</string>
+    </property>
+    <property name="text">
+     <string>x^y</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Button_8">
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>470</y>
+      <width>93</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>93</width>
+      <height>0</height>
+     </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton#e_Button {
+    border-radius: 12px;
+    border: 1px solid #46bcff;
+    color: #46bcff;
+}
+ 
+QPushButton#e_Button:hover {
+    border-radius: 12px;
+    background-color: #46bcff;
+    border: 0px;
+    color: #ffffff;
+}
+ 
+QPushButton#e_Button:pressed {
+    border: 0px;
+    background-color: #25aaf5;
+    border-radius: 12px;
+}
+ 
+QPushButton#e_Button:disabled {
+    border: 0px;
+    border-radius: 12px;
+    border: 1px solid #46bcff;
+    opacity: 0.4;
+}
+</string>
+    </property>
+    <property name="text">
+     <string>8</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Button_7">
+    <property name="geometry">
+     <rect>
+      <x>110</x>
+      <y>470</y>
+      <width>91</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton#Pi_Button {
+    border-radius: 12px;
+    border: 1px solid #46bcff;
+    color: #46bcff;
+}
+ 
+QPushButton#Pi_Button:hover {
+    border-radius: 12px;
+    background-color: #46bcff;
+    border: 0px;
+    color: #ffffff;
+}
+ 
+QPushButton#Pi_Button:pressed {
+    border: 0px;
+    background-color: #25aaf5;
+    border-radius: 12px;
+}
+ 
+QPushButton#Pi_Button:disabled {
+    border: 0px;
+    border-radius: 12px;
+    border: 1px solid #46bcff;
+    opacity: 0.4;
+}
+</string>
+    </property>
+    <property name="text">
+     <string>7</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Button_6">
+    <property name="geometry">
+     <rect>
+      <x>310</x>
+      <y>520</y>
+      <width>91</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton#CLC_Button {
+    border-radius: 12px;
+    border: 1px solid #46bcff;
+    color: #46bcff;
+}
+ 
+QPushButton#CLC_Button:hover {
+    border-radius: 12px;
+    background-color: #46bcff;
+    border: 0px;
+    color: #ffffff;
+}
+ 
+QPushButton#CLC_Button:pressed {
+    border: 0px;
+    background-color: #25aaf5;
+    border-radius: 12px;
+}
+ 
+QPushButton#CLC_Button:disabled {
+    border: 0px;
+    border-radius: 12px;
+    border: 1px solid #46bcff;
+    opacity: 0.4;
+}
+</string>
+    </property>
+    <property name="text">
+     <string>6</string>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>20</width>
+      <height>20</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Sub_Button">
+    <property name="geometry">
+     <rect>
+      <x>410</x>
+      <y>520</y>
+      <width>93</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton#del_Button {
+    border-radius: 12px;
+    border: 1px solid #46bcff;
+    color: #46bcff;
+}
+ 
+QPushButton#del_Button:hover {
+    border-radius: 12px;
+    background-color: #46bcff;
+    border: 0px;
+    color: #ffffff;
+}
+ 
+QPushButton#del_Button:pressed {
+    border: 0px;
+    background-color: #25aaf5;
+    border-radius: 12px;
+}
+ 
+QPushButton#del_Button:disabled {
+    border: 0px;
+    border-radius: 12px;
+    border: 1px solid #46bcff;
+    opacity: 0.4;
+}
+</string>
+    </property>
+    <property name="text">
+     <string>➖</string>
+    </property>
+    <property name="icon">
+     <iconset theme="format-text-italic">
+      <normaloff>.</normaloff>.</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>20</width>
+      <height>20</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="x_10dxcimi_Button">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>520</y>
+      <width>91</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton#nd_2 {
+    border-radius: 12px;
+    border: 1px solid #46bcff;
+    color: #46bcff;
+}
+ 
+QPushButton#nd_2:hover {
+    border-radius: 12px;
+    background-color: #46bcff;
+    border: 0px;
+    color: #ffffff;
+}
+ 
+QPushButton#nd_2:pressed {
+    border: 0px;
+    background-color: #25aaf5;
+    border-radius: 12px;
+}
+ 
+QPushButton#nd_2:disabled {
+    border: 0px;
+    border-radius: 12px;
+    border: 1px solid #46bcff;
+    opacity: 0.4;
+}
+</string>
+    </property>
+    <property name="text">
+     <string>10^x</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Button_5">
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>520</y>
+      <width>93</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>93</width>
+      <height>0</height>
+     </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton#e_Button {
+    border-radius: 12px;
+    border: 1px solid #46bcff;
+    color: #46bcff;
+}
+ 
+QPushButton#e_Button:hover {
+    border-radius: 12px;
+    background-color: #46bcff;
+    border: 0px;
+    color: #ffffff;
+}
+ 
+QPushButton#e_Button:pressed {
+    border: 0px;
+    background-color: #25aaf5;
+    border-radius: 12px;
+}
+ 
+QPushButton#e_Button:disabled {
+    border: 0px;
+    border-radius: 12px;
+    border: 1px solid #46bcff;
+    opacity: 0.4;
+}
+</string>
+    </property>
+    <property name="text">
+     <string>5</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Button_4">
+    <property name="geometry">
+     <rect>
+      <x>110</x>
+      <y>520</y>
+      <width>91</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton#Pi_Button {
+    border-radius: 12px;
+    border: 1px solid #46bcff;
+    color: #46bcff;
+}
+ 
+QPushButton#Pi_Button:hover {
+    border-radius: 12px;
+    background-color: #46bcff;
+    border: 0px;
+    color: #ffffff;
+}
+ 
+QPushButton#Pi_Button:pressed {
+    border: 0px;
+    background-color: #25aaf5;
+    border-radius: 12px;
+}
+ 
+QPushButton#Pi_Button:disabled {
+    border: 0px;
+    border-radius: 12px;
+    border: 1px solid #46bcff;
+    opacity: 0.4;
+}
+</string>
+    </property>
+    <property name="text">
+     <string>4</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Button_3">
+    <property name="geometry">
+     <rect>
+      <x>310</x>
+      <y>570</y>
+      <width>91</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton#CLC_Button {
+    border-radius: 12px;
+    border: 1px solid #46bcff;
+    color: #46bcff;
+}
+ 
+QPushButton#CLC_Button:hover {
+    border-radius: 12px;
+    background-color: #46bcff;
+    border: 0px;
+    color: #ffffff;
+}
+ 
+QPushButton#CLC_Button:pressed {
+    border: 0px;
+    background-color: #25aaf5;
+    border-radius: 12px;
+}
+ 
+QPushButton#CLC_Button:disabled {
+    border: 0px;
+    border-radius: 12px;
+    border: 1px solid #46bcff;
+    opacity: 0.4;
+}
+</string>
+    </property>
+    <property name="text">
+     <string>3</string>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>20</width>
+      <height>20</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Add_Button">
+    <property name="geometry">
+     <rect>
+      <x>410</x>
+      <y>570</y>
+      <width>93</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton#del_Button {
+    border-radius: 12px;
+    border: 1px solid #46bcff;
+    color: #46bcff;
+}
+ 
+QPushButton#del_Button:hover {
+    border-radius: 12px;
+    background-color: #46bcff;
+    border: 0px;
+    color: #ffffff;
+}
+ 
+QPushButton#del_Button:pressed {
+    border: 0px;
+    background-color: #25aaf5;
+    border-radius: 12px;
+}
+ 
+QPushButton#del_Button:disabled {
+    border: 0px;
+    border-radius: 12px;
+    border: 1px solid #46bcff;
+    opacity: 0.4;
+}
+</string>
+    </property>
+    <property name="text">
+     <string>➕</string>
+    </property>
+    <property name="icon">
+     <iconset theme="format-text-italic">
+      <normaloff>.</normaloff>.</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>20</width>
+      <height>20</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="logx_Button">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>570</y>
+      <width>91</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton#nd_2 {
+    border-radius: 12px;
+    border: 1px solid #46bcff;
+    color: #46bcff;
+}
+ 
+QPushButton#nd_2:hover {
+    border-radius: 12px;
+    background-color: #46bcff;
+    border: 0px;
+    color: #ffffff;
+}
+ 
+QPushButton#nd_2:pressed {
+    border: 0px;
+    background-color: #25aaf5;
+    border-radius: 12px;
+}
+ 
+QPushButton#nd_2:disabled {
+    border: 0px;
+    border-radius: 12px;
+    border: 1px solid #46bcff;
+    opacity: 0.4;
+}
+</string>
+    </property>
+    <property name="text">
+     <string>log</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Button_2">
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>570</y>
+      <width>93</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>93</width>
+      <height>0</height>
+     </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton#e_Button {
+    border-radius: 12px;
+    border: 1px solid #46bcff;
+    color: #46bcff;
+}
+ 
+QPushButton#e_Button:hover {
+    border-radius: 12px;
+    background-color: #46bcff;
+    border: 0px;
+    color: #ffffff;
+}
+ 
+QPushButton#e_Button:pressed {
+    border: 0px;
+    background-color: #25aaf5;
+    border-radius: 12px;
+}
+ 
+QPushButton#e_Button:disabled {
+    border: 0px;
+    border-radius: 12px;
+    border: 1px solid #46bcff;
+    opacity: 0.4;
+}
+</string>
+    </property>
+    <property name="text">
+     <string>2</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Button_1">
+    <property name="geometry">
+     <rect>
+      <x>110</x>
+      <y>570</y>
+      <width>91</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton#Pi_Button {
+    border-radius: 12px;
+    border: 1px solid #46bcff;
+    color: #46bcff;
+}
+ 
+QPushButton#Pi_Button:hover {
+    border-radius: 12px;
+    background-color: #46bcff;
+    border: 0px;
+    color: #ffffff;
+}
+ 
+QPushButton#Pi_Button:pressed {
+    border: 0px;
+    background-color: #25aaf5;
+    border-radius: 12px;
+}
+ 
+QPushButton#Pi_Button:disabled {
+    border: 0px;
+    border-radius: 12px;
+    border: 1px solid #46bcff;
+    opacity: 0.4;
+}
+</string>
+    </property>
+    <property name="text">
+     <string>1</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Point_Button">
+    <property name="geometry">
+     <rect>
+      <x>310</x>
+      <y>620</y>
+      <width>91</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton#CLC_Button {
+    border-radius: 12px;
+    border: 1px solid #46bcff;
+    color: #46bcff;
+}
+ 
+QPushButton#CLC_Button:hover {
+    border-radius: 12px;
+    background-color: #46bcff;
+    border: 0px;
+    color: #ffffff;
+}
+ 
+QPushButton#CLC_Button:pressed {
+    border: 0px;
+    background-color: #25aaf5;
+    border-radius: 12px;
+}
+ 
+QPushButton#CLC_Button:disabled {
+    border: 0px;
+    border-radius: 12px;
+    border: 1px solid #46bcff;
+    opacity: 0.4;
+}
+</string>
+    </property>
+    <property name="text">
+     <string>.</string>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>20</width>
+      <height>20</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Equal_Button">
+    <property name="geometry">
+     <rect>
+      <x>410</x>
+      <y>620</y>
+      <width>93</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton#del_Button {
+    border-radius: 12px;
+    border: 1px solid #46bcff;
+    color: #46bcff;
+}
+ 
+QPushButton#del_Button:hover {
+    border-radius: 12px;
+    background-color: #46bcff;
+    border: 0px;
+    color: #ffffff;
+}
+ 
+QPushButton#del_Button:pressed {
+    border: 0px;
+    background-color: #25aaf5;
+    border-radius: 12px;
+}
+ 
+QPushButton#del_Button:disabled {
+    border: 0px;
+    border-radius: 12px;
+    border: 1px solid #46bcff;
+    opacity: 0.4;
+}
+</string>
+    </property>
+    <property name="text">
+     <string>＝</string>
+    </property>
+    <property name="icon">
+     <iconset theme="format-text-italic">
+      <normaloff>.</normaloff>.</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>20</width>
+      <height>20</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="lnx_Button">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>620</y>
+      <width>91</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton#nd_2 {
+    border-radius: 12px;
+    border: 1px solid #46bcff;
+    color: #46bcff;
+}
+ 
+QPushButton#nd_2:hover {
+    border-radius: 12px;
+    background-color: #46bcff;
+    border: 0px;
+    color: #ffffff;
+}
+ 
+QPushButton#nd_2:pressed {
+    border: 0px;
+    background-color: #25aaf5;
+    border-radius: 12px;
+}
+ 
+QPushButton#nd_2:disabled {
+    border: 0px;
+    border-radius: 12px;
+    border: 1px solid #46bcff;
+    opacity: 0.4;
+}
+</string>
+    </property>
+    <property name="text">
+     <string>ln</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Button_0">
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>620</y>
+      <width>93</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>93</width>
+      <height>0</height>
+     </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton#e_Button {
+    border-radius: 12px;
+    border: 1px solid #46bcff;
+    color: #46bcff;
+}
+ 
+QPushButton#e_Button:hover {
+    border-radius: 12px;
+    background-color: #46bcff;
+    border: 0px;
+    color: #ffffff;
+}
+ 
+QPushButton#e_Button:pressed {
+    border: 0px;
+    background-color: #25aaf5;
+    border-radius: 12px;
+}
+ 
+QPushButton#e_Button:disabled {
+    border: 0px;
+    border-radius: 12px;
+    border: 1px solid #46bcff;
+    opacity: 0.4;
+}
+</string>
+    </property>
+    <property name="text">
+     <string>0</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="symbol_exchange_Button">
+    <property name="geometry">
+     <rect>
+      <x>110</x>
+      <y>620</y>
+      <width>91</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton#Pi_Button {
+    border-radius: 12px;
+    border: 1px solid #46bcff;
+    color: #46bcff;
+}
+ 
+QPushButton#Pi_Button:hover {
+    border-radius: 12px;
+    background-color: #46bcff;
+    border: 0px;
+    color: #ffffff;
+}
+ 
+QPushButton#Pi_Button:pressed {
+    border: 0px;
+    background-color: #25aaf5;
+    border-radius: 12px;
+}
+ 
+QPushButton#Pi_Button:disabled {
+    border: 0px;
+    border-radius: 12px;
+    border: 1px solid #46bcff;
+    opacity: 0.4;
+}
+</string>
+    </property>
+    <property name="text">
+     <string>+/-</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="F_E_Button">
+    <property name="geometry">
+     <rect>
+      <x>310</x>
+      <y>270</y>
+      <width>91</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string>F-E</string>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>20</width>
+      <height>20</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="R_D_Exchange_Button">
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>270</y>
+      <width>93</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>93</width>
+      <height>0</height>
+     </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string>RAD</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="f_Func_Button">
+    <property name="geometry">
+     <rect>
+      <x>110</x>
+      <y>270</y>
+      <width>91</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string>f 函数</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Tri_Button">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>270</y>
+      <width>91</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string>三角学</string>
+    </property>
+   </widget>
+   <widget class="QWidget" name="Tri_Show_GUI" native="true">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>310</y>
+      <width>281</width>
+      <height>111</height>
+     </rect>
+    </property>
+    <property name="autoFillBackground">
+     <bool>true</bool>
+    </property>
+    <widget class="QPushButton" name="Sin_Button">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>10</y>
+       <width>81</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>sin</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="Cos_Button">
+     <property name="geometry">
+      <rect>
+       <x>100</x>
+       <y>10</y>
+       <width>81</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>cos</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="Tan_Button">
+     <property name="geometry">
+      <rect>
+       <x>190</x>
+       <y>10</y>
+       <width>81</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>tan</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="Sec_Button">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>60</y>
+       <width>81</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>sec</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="Csc_Button">
+     <property name="geometry">
+      <rect>
+       <x>100</x>
+       <y>60</y>
+       <width>81</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>csc</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="Cot_Button">
+     <property name="geometry">
+      <rect>
+       <x>190</x>
+       <y>60</y>
+       <width>81</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>cot</string>
+     </property>
+    </widget>
+    <zorder>Cos_Button</zorder>
+    <zorder>Tan_Button</zorder>
+    <zorder>Sec_Button</zorder>
+    <zorder>Csc_Button</zorder>
+    <zorder>Cot_Button</zorder>
+    <zorder>Sin_Button</zorder>
+   </widget>
+   <widget class="QPushButton" name="History_Rec">
+    <property name="geometry">
+     <rect>
+      <x>470</x>
+      <y>20</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="duoxaingshi_Button">
+    <property name="geometry">
+     <rect>
+      <x>410</x>
+      <y>270</y>
+      <width>93</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>多项式计算</string>
+    </property>
+   </widget>
+   <widget class="QWidget" name="f_Func_GUI" native="true">
+    <property name="geometry">
+     <rect>
+      <x>150</x>
+      <y>310</y>
+      <width>281</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <widget class="QPushButton" name="Random_Button">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>10</y>
+       <width>81</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>rand</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="xiangshang_Button">
+     <property name="geometry">
+      <rect>
+       <x>100</x>
+       <y>10</y>
+       <width>81</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>↑x↑</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="xiangxiaqu_Button">
+     <property name="geometry">
+      <rect>
+       <x>190</x>
+       <y>10</y>
+       <width>81</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>↓x↓</string>
+     </property>
+    </widget>
+    <zorder>xiangshang_Button</zorder>
+    <zorder>xiangxiaqu_Button</zorder>
+    <zorder>Random_Button</zorder>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>20</y>
+      <width>91</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Science</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="jieguo_TextArea">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>150</y>
+      <width>491</width>
+      <height>101</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>35</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>0</string>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="shizi_TextArea">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>90</y>
+      <width>491</width>
+      <height>41</height>
+     </rect>
+    </property>
+   </widget>
+   <zorder>nd_2</zorder>
+   <zorder>Pi_Button</zorder>
+   <zorder>e_Button</zorder>
+   <zorder>CLC_Button</zorder>
+   <zorder>del_Button</zorder>
+   <zorder>mi_10_d_xciButton</zorder>
+   <zorder>Get_ModButton</zorder>
+   <zorder>x2_Button</zorder>
+   <zorder>absx_Button</zorder>
+   <zorder>x_fuyici_Button</zorder>
+   <zorder>jiecheng</zorder>
+   <zorder>divButton</zorder>
+   <zorder>sqrt_xButton</zorder>
+   <zorder>Right_Bra_Button</zorder>
+   <zorder>Left_bra_Button</zorder>
+   <zorder>Button_9</zorder>
+   <zorder>Mul_Button</zorder>
+   <zorder>xd_ycimi_Button</zorder>
+   <zorder>Button_8</zorder>
+   <zorder>Button_7</zorder>
+   <zorder>Button_6</zorder>
+   <zorder>Sub_Button</zorder>
+   <zorder>x_10dxcimi_Button</zorder>
+   <zorder>Button_5</zorder>
+   <zorder>Button_4</zorder>
+   <zorder>Button_3</zorder>
+   <zorder>Add_Button</zorder>
+   <zorder>logx_Button</zorder>
+   <zorder>Button_2</zorder>
+   <zorder>Button_1</zorder>
+   <zorder>Point_Button</zorder>
+   <zorder>Equal_Button</zorder>
+   <zorder>lnx_Button</zorder>
+   <zorder>Button_0</zorder>
+   <zorder>symbol_exchange_Button</zorder>
+   <zorder>F_E_Button</zorder>
+   <zorder>R_D_Exchange_Button</zorder>
+   <zorder>f_Func_Button</zorder>
+   <zorder>Tri_Button</zorder>
+   <zorder>History_Rec</zorder>
+   <zorder>duoxaingshi_Button</zorder>
+   <zorder>label</zorder>
+   <zorder>jieguo_TextArea</zorder>
+   <zorder>shizi_TextArea</zorder>
+   <zorder>Tri_Show_GUI</zorder>
+   <zorder>f_Func_GUI</zorder>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

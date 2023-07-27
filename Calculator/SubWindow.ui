@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>792</width>
+    <height>411</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>690</x>
+     <y>130</y>
+     <width>69</width>
+     <height>19</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Input2</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>690</x>
+     <y>60</y>
+     <width>69</width>
+     <height>19</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Input1</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_6">
+   <property name="geometry">
+    <rect>
+     <x>690</x>
+     <y>270</y>
+     <width>69</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Output2</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="OutputText_2">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>260</y>
+     <width>641</width>
+     <height>31</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>20</y>
+     <width>291</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Input eg: 1+x+x^3+x^6+x^7-x^9</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_5">
+   <property name="geometry">
+    <rect>
+     <x>690</x>
+     <y>200</y>
+     <width>69</width>
+     <height>19</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Output1</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="OutputText_1">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>190</y>
+     <width>641</width>
+     <height>31</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_4">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>90</y>
+     <width>121</width>
+     <height>19</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Operator:</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="comboBox">
+   <property name="geometry">
+    <rect>
+     <x>130</x>
+     <y>90</y>
+     <width>82</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <item>
+    <property name="text">
+     <string/>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>+</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>-</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>*</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QPushButton" name="CLC_Button">
+   <property name="geometry">
+    <rect>
+     <x>200</x>
+     <y>330</y>
+     <width>91</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">  QPushButton#CLC_Button {
+       border-radius: 12px;
+       border: 1px solid #000000;
+       color: #000000;
+       }
+        QPushButton#CLC_Button:hover{
+        border-radius: 12px;
+        border: 1px solid #000000; 
+        background-color: qlineargradient(spread:pad,  x1:0, x2:0, y1:0, y2:1
+         stop: 0 rgba(200,220,240,255),
+         stop: 0.504 rgba(173,216,230,255),
+         stop: 0.505 rgba(171,215,225,255),
+        stop: 1 rgba(200,220,240,255));
+        }
+
+        QPushButton#CLC_Button:pressed{
+         border-radius: 12px;
+        background-color: qlineargradient(spread:pad,  x1:0, x2:0, y1:0, y2:1,
+         stop: 0 rgba(200,220,240,255),
+         stop: 0.504 rgba(230,230,230,255),
+         stop: 0.505 rgba(230,230,230,255),
+        stop: 1 rgba(200,220,225,255));
+         border: 1px solid #000000;  
+
+        }
+</string>
+   </property>
+   <property name="text">
+    <string>CLC</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="delete_one_char_Button">
+   <property name="geometry">
+    <rect>
+     <x>420</x>
+     <y>330</y>
+     <width>93</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton#delete_one_char_Button {
+       border-radius: 12px;
+       border: 1px solid #000000;
+       color: #000000;
+       }
+        QPushButton#delete_one_char_Button:hover{
+        border-radius: 12px;
+        border: 1px solid #000000; 
+        background-color: qlineargradient(spread:pad,  x1:0, x2:0, y1:0, y2:1
+         stop: 0 rgba(200,220,240,255),
+         stop: 0.504 rgba(173,216,230,255),
+         stop: 0.505 rgba(171,215,225,255),
+        stop: 1 rgba(200,220,240,255));
+        }
+
+        QPushButton#delete_one_char_Button:pressed{
+         border-radius: 12px;
+        background-color: qlineargradient(spread:pad,  x1:0, x2:0, y1:0, y2:1,
+         stop: 0 rgba(200,220,240,255),
+         stop: 0.504 rgba(230,230,230,255),
+         stop: 0.505 rgba(230,230,230,255),
+        stop: 1 rgba(200,220,225,255));
+         border: 1px solid #000000;  
+
+        }
+</string>
+   </property>
+   <property name="text">
+    <string>&lt;-</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="InputText_1">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>50</y>
+     <width>641</width>
+     <height>31</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="InputText_2">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>120</y>
+     <width>641</width>
+     <height>31</height>
+    </rect>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
